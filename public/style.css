@@ -1,0 +1,99 @@
+*, *::before, *::after { 
+    box-sizing: border-box;
+  }
+
+html, body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(221, 219, 205);
+    font-size: 15px;
+    font-family: sans-serif;
+
+  }
+
+.title {
+      display: flex;
+      justify-content: center;
+  }
+
+.container {
+    background-color: #ffffff;
+    border: 2px solid brown;
+    padding: 100px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    padding: 10px;    
+    border-radius: 5px;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #41a14a;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.profile-picture {
+    width: 30px;
+    padding-top: 20px;
+}
+
+.login-failed{
+    color: rgb(97, 16, 16);
+}
+
+.header{
+    font-weight: bold;
+}
+
+.statement{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #bb2525;
+}
+
+
+.main-area {
+    margin: 100px;
+}
+  
+span {
+    font-size: 25px;
+    color: #3a1fb0;
+}
+  
+p {
+    font-size: 25px;
+  }
+  
+.valid-words {
+    text-align: justify;
+  }
+  
+.button-widget {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+ 
+  
+.success {
+    margin: 0 auto;
+    font-size: 40px;
+    color: #bb2525;
+    text-align: center;
+  }
+
+
+  
+
